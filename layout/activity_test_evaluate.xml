@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".TestEvaluate">
+
+    <EditText
+        android:id="@+id/speech_to_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/poppins_medium"
+        android:hint=" ... "
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/text_color"
+        android:textColorHint="@color/hint_text_color"
+        android:textSize="36dp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/courier_bold"
+        android:text="E"
+        android:textAlignment="center"
+        android:textColor="@color/text_color"
+        android:textSize="300dp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/mic_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/next_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/round_stroke"
+        android:outlineProvider="background"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_baseline_mic_off_24"
+        app:tint="@color/text_color" />
+
+    <ImageView
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/ic_baseline_arrow_forward"
+        app:tint="@color/text_color" />
+
+</RelativeLayout>

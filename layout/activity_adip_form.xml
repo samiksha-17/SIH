@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@drawable/kim2"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:fillViewport="true"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="15sp"
+            android:paddingTop="25sp">
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="378sp"
+                android:layout_height="55dp"
+                android:background="#9098C6"
+                android:paddingLeft="50sp"
+                android:paddingTop="8sp"
+                android:text="beneficiary_details"
+                android:textColor="@color/black"
+                android:textSize="27sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="378dp"
+                android:layout_height="90sp"
+                android:background="#9098C6"
+
+                android:gravity="center_horizontal"
+                android:paddingLeft="4sp"
+                android:paddingTop="15sp"
+                android:text="BENEFICIARY ADIP REGISTRATION"
+                android:textColor="@color/black"
+                android:textSize="27sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="150sp"
+                android:layout_height="50sp"
+                android:layout_marginBottom="20sp"
+                android:paddingTop="15sp"
+                android:text="Note:"
+                android:textColor="@color/black"
+                android:textSize="27sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:text="1)Responsible Person should fill the form"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:text="2)All fields marked with asterik(*)       are mandatatory."
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registration Step :"
+                android:textColor="@color/black"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="1)You cannot edit the details, once you submitted."
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="2)After Submitting form you have to upload all Documents. "
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10sp"
+                android:text="UDID Number/Disability ID"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/editTextView55"
+                android:layout_width="392sp"
+                android:layout_height="40sp"
+                android:background="@drawable/textborder"
+                android:ems="10"
+                android:hint="Enter UDID Number"
+                android:inputType="text"
+                android:maxLength="18" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20sp"
+                android:text="Aadhaar Card Number"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/editTextNumber5"
+                android:layout_width="392sp"
+                android:layout_height="40sp"
+                android:background="@drawable/textborder"
+                android:ems="12"
+                android:hint="Enter Aadhar Number"
+                android:inputType="number"
+                android:maxLength="12"
+                android:paddingTop="9sp" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20sp"
+                android:text="Mobile Number"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/editTextPhone3"
+                android:layout_width="392sp"
+                android:layout_height="40sp"
+                android:background="@drawable/textborder"
+                android:ems="10"
+                android:hint="Enter Mobile Number"
+                android:inputType="phone" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="375sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="#9098C6"
+                android:paddingLeft="75sp"
+                android:text="Personal Details"
+                android:textColor="@color/black"
+                android:textSize="27sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20sp"
+                android:paddingBottom="10sp"
+                android:text="salutation :"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <Spinner
+                android:id="@+id/spinnerSalutation"
+                android:entries="@array/salutation"
+                android:layout_width="250sp"
+                android:layout_height="35sp" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20sp"
+                android:text="Beneficiary's first Name"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                tools:layout_editor_absoluteX="-2dp"
+                tools:layout_editor_absoluteY="443dp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName21"
+                android:layout_width="392dp"
+                android:layout_height="40sp"
+                android:background="@drawable/textborder"
+                android:ems="10"
+                android:hint="enter first name"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="-2dp"
+                tools:layout_editor_absoluteY="477dp" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="299dp"
+                android:layout_height="54dp"
+                android:paddingTop="20sp"
+                android:text="Beneficiary's Middle Name"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="548dp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName22"
+                android:layout_width="392sp"
+                android:layout_height="40sp"
+                android:background="@drawable/textborder"
+                android:ems="10"
+                android:hint="enter Middle name"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="602dp" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="293dp"
+                android:layout_height="54dp"
+                android:paddingTop="20sp"
+                android:text="Beneficiary's Last Name"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="548dp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName23"
+                android:layout_width="392sp"
+                android:layout_height="48dp"
+                android:background="@drawable/textborder"
+                android:ems="10"
+                android:hint="enter Last name"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="602dp" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="293dp"
+                android:layout_height="54dp"
+                android:paddingTop="20sp"
+                android:text="Father Name"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="548dp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName24"
+                android:layout_width="392sp"
+                android:layout_height="40sp"
+                android:background="@drawable/textborder"
+                android:ems="10"
+                android:hint="Father name"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="602dp" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="293dp"
+                android:layout_height="54dp"
+                android:paddingTop="20sp"
+                android:paddingBottom="1sp"
+                android:text="Mother Name"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="548dp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName25"
+                android:layout_width="392sp"
+                android:layout_height="40sp"
+                android:background="@drawable/textborder"
+                android:ems="10"
+                android:hint="Mother name"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="602dp" />
+
+            <TextView
+                android:id="@+id/Gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20sp"
+                android:paddingBottom="7sp"
+                android:text="Gender :"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <Spinner
+                android:id="@+id/gender"
+                android:layout_width="250sp"
+                android:layout_height="35sp" />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="230sp"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_baseline_date_range_24"
+                android:paddingTop="20sp"
+                android:paddingBottom="7sp"
+                android:text="Date Of Birth :"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:hint="Select Date"
+                android:inputType="none" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20sp"
+                android:paddingBottom="10sp"
+                android:text="Age(in Year)"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/editTextDate"
+                android:layout_width="392sp"
+                android:layout_height="40sp"
+                android:background="@drawable/textborder"
+                android:ems="10"
+                android:inputType="date" />
+
+            <TextView
+                android:id="@+id/catagories"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20sp"
+                android:paddingBottom="7sp"
+                android:text="Category :"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <Spinner
+                android:id="@+id/catagory"
+                android:layout_width="250sp"
+                android:layout_height="35sp" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Address"
+                android:paddingTop="20sp"
+                android:paddingBottom="7sp"
+                android:text="Address :"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/editTextTextMultiLine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine" />
+
+            <TextView
+                android:id="@+id/area_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20sp"
+                android:paddingBottom="7sp"
+                android:text="Select Area Type:"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <Spinner
+                android:id="@+id/areatype"
+                android:layout_width="250sp"
+                android:layout_height="35sp" />
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20sp"
+                android:paddingBottom="7sp"
+                android:text="Tehsil/Block:"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Enter Tehsil/Block"
+                android:inputType="textMultiLine" />
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20sp"
+                android:paddingBottom="7sp"
+                android:text="Pincode:"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Pincode"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/indian_states"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20sp"
+                android:paddingBottom="7sp"
+                android:text="States"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <Spinner
+                android:id="@+id/states"
+                android:layout_width="250sp"
+                android:layout_height="35sp" />
+
+            <TextView
+                android:id="@+id/indian_district"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20sp"
+                android:paddingBottom="7sp"
+                android:text="Districts"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <Spinner
+                android:id="@+id/districts"
+                android:layout_width="250sp"
+                android:layout_height="35sp" />
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20sp"
+                android:paddingBottom="7sp"
+                android:text="Occupation"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <Spinner
+                android:id="@+id/occupation"
+                android:layout_width="250sp"
+                android:layout_height="35sp" />
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20sp"
+                android:paddingBottom="7sp"
+                android:text="Family Income(Monthly in Rs)"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20sp"
+                android:paddingBottom="7sp"
+                android:text=" Type Of Disability"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <Spinner
+                android:id="@+id/types"
+                android:layout_width="250sp"
+                android:layout_height="35sp" />
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20sp"
+                android:paddingBottom="7sp"
+                android:text=" percentage of disability"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Pincode"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20sp"
+                android:paddingBottom="7sp"
+                android:text=" Applying Assistive Device"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <Spinner
+                android:id="@+id/assistivedevice"
+                android:layout_width="250sp"
+                android:layout_height="35sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20sp"
+                android:text="I hereby declare that the terms and conditions and information furnished above is true,
+complete,and correct to the best of my knowledge and belief.I also declare that I have not received any aids and assistive
+devices for the same disability in the past three years"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="172dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginTop="30sp"
+                android:onClick="activity_documents"
+                android:text="SUBMIT"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

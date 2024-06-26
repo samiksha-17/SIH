@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/test_fragment"
+    android:background="@color/background_color"
+    android:orientation="vertical"
+    tools:context=".TestFragment">
+
+    <TextView
+        android:id="@+id/set_distance_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Set Distance"
+        android:textColor="@color/text_color"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/message0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="4dp"
+        android:text="*Distances in  feet"
+        android:textColor="@color/hint_text_color"
+        android:textSize="16sp" />
+
+    <com.ramotion.fluidslider.FluidSlider
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        app:bar_color="#03A9F4"
+        app:bubble_color="@color/background_color"
+        app:bubble_text_color="@color/text_color"
+        app:duration="400"
+        app:end_text="20"
+        app:initial_position="0.0"
+        app:size="normal"
+        app:start_text="0"
+        app:text_size="16sp" />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="4dp"
+        android:text="Slide the bubble to set the distance\n*14-20 feet (Recommended)"
+        android:textAlignment="center"
+        android:textColor="@color/hint_text_color"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/distance_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="20"
+        android:textColor="@color/text_color"
+        android:textSize="36sp" />
+
+    <ImageButton
+        android:id="@+id/take_test_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="64dp"
+        android:background="@color/background_color"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_baseline_check_circle" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/poppins_medium"
+        android:paddingStart="16dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="8dp"
+        android:text="Continue to test"
+        android:textColor="@color/text_color"
+        android:textSize="16sp" />
+</LinearLayout>

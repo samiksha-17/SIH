@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4"
+    android:paddingLeft="15dp"
+    android:paddingRight="10dp"
+    android:background="@drawable/kim2">
+
+  <ScrollView
+      android:layout_width="408dp"
+      android:layout_height="866dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+      <TextView
+          android:id="@+id/textView24"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textColor="@color/black"
+          android:textStyle="bold"
+          android:textSize="25dp"
+          android:text="Recommended Jobs" />
+
+      <TextView
+          android:id="@+id/textView25"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingTop="10dp"
+          android:text="Customer Service"
+          android:textSize="20dp"
+          android:textColor="@color/black"
+          android:textStyle="bold"
+          />
+
+      <TextView
+          android:id="@+id/textView26"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textColor="@color/purple_500"
+          android:textSize="18dp"
+          android:textStyle="bold"
+          android:text="XYZ Groups" />
+
+      <TextView
+          android:id="@+id/textView27"
+          android:layout_width="match_parent"
+          android:drawableLeft="@drawable/location"
+          android:drawablePadding="10dp"
+          android:textSize="15dp"
+          android:layout_height="wrap_content"
+          android:text="Online" />
+
+      <TextView
+          android:id="@+id/textView28"
+          android:layout_width="match_parent"
+          android:drawableLeft="@drawable/job"
+          android:drawablePadding="10dp"
+          android:textSize="15dp"
+          android:layout_height="wrap_content"
+          android:text="0-3year" />
+
+      <TextView
+          android:id="@+id/textView29"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="listen to customer concerns, answer customer questions and provide information about the company's products and services. "
+          android:textColor="@color/black"/>
+
+      <Button
+          android:id="@+id/button4"
+          android:layout_width="150dp"
+          android:layout_height="45dp"
+          android:backgroundTint="@color/purple_700"
+          android:drawableLeft="@drawable/share"
+          android:onClick="activity_main5"
+          android:layout_marginLeft="240dp"
+          android:text="Apply" />
+
+      <TextView
+          android:id="@+id/textView22"
+          android:layout_width="match_parent"
+          android:paddingTop="20dp"
+          android:textColor="@color/black"
+          android:textStyle="bold"
+          android:textSize="20dp"
+          android:layout_height="wrap_content"
+          android:text="Recruiting Associate" />
+
+      <TextView
+          android:id="@+id/textView68"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textColor="@color/purple_500"
+          android:textSize="18dp"
+          android:textStyle="bold"
+          android:text="AB Limited Groups"/>
+
+      <TextView
+          android:id="@+id/textView32"
+          android:layout_width="match_parent"
+          android:drawableLeft="@drawable/location"
+          android:drawablePadding="10dp"
+          android:textSize="15dp"
+          android:layout_height="wrap_content"
+          android:text="Maharastra" />
+
+      <TextView
+          android:id="@+id/textView30"
+          android:layout_width="match_parent"
+          android:drawableLeft="@drawable/job"
+          android:drawablePadding="10dp"
+          android:textSize="15dp"
+          android:layout_height="wrap_content"
+          android:text="0-4year"  />
+
+      <TextView
+          android:id="@+id/textView31"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textColor="@color/black"
+          android:text="Develop and maintain relationships with industry professionals by attending industry networking and career events to proactively recruit candidates." />
+
+      <Button
+          android:id="@+id/button5"
+          android:layout_width="150dp"
+          android:layout_height="45dp"
+          android:drawableLeft="@drawable/share"
+          android:backgroundTint="@color/purple_700"
+          android:onClick="activity_main5"
+          android:layout_marginLeft="240dp"
+          android:text="Apply" />
+
+      <TextView
+          android:id="@+id/textView33"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingTop="10dp"
+          android:text="Lead Engineer"
+          android:textSize="20dp"
+          android:textColor="@color/black"
+          android:textStyle="bold" />
+
+      <TextView
+          android:id="@+id/textView34"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textColor="@color/purple_500"
+          android:textSize="18dp"
+          android:textStyle="bold"
+          android:text="abc Groups Associate" />
+
+      <TextView
+          android:id="@+id/textView35"
+          android:layout_width="match_parent"
+          android:drawableLeft="@drawable/location"
+          android:drawablePadding="10dp"
+          android:textSize="15dp"
+          android:layout_height="wrap_content"
+          android:text="Punjab" />
+
+      <TextView
+          android:id="@+id/textView37"
+          android:layout_width="match_parent"
+          android:drawableLeft="@drawable/job"
+          android:drawablePadding="10dp"
+          android:textSize="15dp"
+          android:layout_height="wrap_content"
+          android:text="0-2year" />
+
+      <TextView
+          android:id="@+id/textView36"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textColor="@color/black"
+          android:text="The Lead Engineer leads a team of Engineers and Technicians to oversee the smooth and efficient running of port equipment, and has oversight over each phase of maintenance" />
+
+      <Button
+          android:id="@+id/button6"
+          android:layout_width="150dp"
+          android:layout_height="45dp"
+          android:backgroundTint="@color/purple_700"
+          android:drawableLeft="@drawable/share"
+          android:onClick="activity_main5"
+          android:layout_marginLeft="240dp"
+          android:text="Apply" />
+
+      <TextView
+          android:id="@+id/textView43"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingTop="10dp"
+          android:text="Research Associate"
+          android:textSize="20dp"
+          android:textColor="@color/black"
+          android:textStyle="bold" />
+
+      <TextView
+          android:id="@+id/textView42"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textColor="@color/purple_500"
+          android:textSize="18dp"
+          android:textStyle="bold"
+          android:text="Axz Foundation" />
+
+      <TextView
+          android:id="@+id/textView41"
+          android:layout_width="match_parent"
+          android:drawableLeft="@drawable/location"
+          android:drawablePadding="10dp"
+          android:textSize="15dp"
+          android:layout_height="wrap_content"
+          android:text="Bengaluru,Karnataka" />
+
+      <TextView
+          android:id="@+id/textView40"
+          android:layout_width="match_parent"
+          android:drawableLeft="@drawable/job"
+          android:drawablePadding="10dp"
+          android:textSize="15dp"
+          android:layout_height="wrap_content"
+          android:text="0-4year"/>
+
+      <TextView
+          android:id="@+id/textView39"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textColor="@color/black"
+          android:text="Collects, prepares, analyzes, dissects, and evaluates specimens and/or tissue cultures. Performs a wide variety of assays, tests, and studies of non-routine nature." />
+
+      <Button
+          android:id="@+id/button8"
+          android:layout_width="150dp"
+          android:layout_height="45dp"
+          android:backgroundTint="@color/purple_700"
+          android:drawableLeft="@drawable/share"
+          android:onClick="activity_main5"
+          android:layout_marginLeft="240dp"
+          android:text="Apply" />
+
+      <TextView
+          android:id="@+id/textView45"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingTop="10dp"
+          android:text="Customer Care"
+          android:textSize="20dp"
+          android:textColor="@color/black"
+          android:textStyle="bold" />
+
+      <TextView
+          android:id="@+id/textView48"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textColor="@color/purple_500"
+          android:textSize="18dp"
+          android:textStyle="bold"
+          android:text="Private Limited" />
+
+      <TextView
+          android:id="@+id/textView47"
+          android:layout_width="match_parent"
+          android:drawableLeft="@drawable/location"
+          android:drawablePadding="10dp"
+          android:textSize="15dp"
+          android:layout_height="wrap_content"
+          android:text="Online" />
+
+      <TextView
+          android:id="@+id/textView46"
+          android:layout_width="match_parent"
+          android:drawableLeft="@drawable/job"
+          android:drawablePadding="10dp"
+          android:textSize="15dp"
+          android:layout_height="wrap_content"
+          android:text="0-2year" />
+
+      <TextView
+          android:id="@+id/textView44"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textColor="@color/black"
+          android:text="The primary job of a customer service representative is to address customer issues and resolve them in a timely and efficient manner. " />
+
+      <Button
+          android:id="@+id/button9"
+          android:layout_width="150dp"
+          android:layout_height="45dp"
+          android:backgroundTint="@color/purple_700"
+          android:drawableLeft="@drawable/share"
+          android:onClick="activity_main5"
+          android:layout_marginLeft="240dp"
+          android:text="Apply" />
+
+      <TextView
+          android:id="@+id/textView56"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingTop="10dp"
+          android:text="Accounting"
+          android:textSize="20dp"
+          android:textColor="@color/black"
+          android:textStyle="bold" />
+
+      <TextView
+          android:id="@+id/textView51"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textColor="@color/purple_500"
+          android:textSize="18dp"
+          android:textStyle="bold"
+          android:text="XYZ Banking" />
+
+      <TextView
+          android:id="@+id/textView54"
+          android:layout_width="match_parent"
+          android:drawableLeft="@drawable/location"
+          android:drawablePadding="10dp"
+          android:textSize="15dp"
+          android:layout_height="wrap_content"
+          android:text="Mumbai,Maharashtra" />
+
+      <TextView
+          android:id="@+id/textView55"
+          android:layout_width="match_parent"
+          android:drawableLeft="@drawable/job"
+          android:drawablePadding="10dp"
+          android:textSize="15dp"
+          android:layout_height="wrap_content"
+          android:text="0-5year"  />
+
+      <TextView
+          android:id="@+id/textView52"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textColor="@color/black"
+          android:text="An Accountant helps businesses make critical financial decisions by collecting, tracking, and correcting the company's finances." />
+
+      <Button
+          android:id="@+id/button10"
+          android:layout_width="150dp"
+          android:layout_height="45dp"
+          android:backgroundTint="@color/purple_700"
+          android:drawableLeft="@drawable/share"
+          android:onClick="activity_main5"
+          android:layout_marginLeft="240dp"
+          android:layout_marginTop="20dp"
+          android:text="Apply"/>
+
+    </LinearLayout>
+  </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

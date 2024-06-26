@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kim2"
+    tools:context=".MainActivity5">
+
+  <ScrollView
+      android:layout_width="394dp"
+      android:layout_height="883dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+      <TextView
+          android:id="@+id/textView38"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:fontFamily="sans-serif-black"
+          android:paddingLeft="120dp"
+          android:text="Job Description"
+          android:textColor="@color/black"
+          android:textSize="25dp" />
+
+      <TextView
+          android:id="@+id/textView49"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingTop="20dp"
+          android:text="Company Name"
+          android:textColor="@color/purple_700"
+          android:textSize="20dp"
+          android:textStyle="bold" />
+
+      <TextView
+          android:id="@+id/textView50"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Job ID"
+          android:textColor="#818080"
+          android:textStyle="bold" />
+
+      <TextView
+          android:id="@+id/textView57"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingTop="10dp"
+          android:text="Job Info"
+          android:textStyle="bold"
+          android:textColor="@color/black"
+          android:textSize="20dp" />
+
+      <TextView
+          android:id="@+id/textView58"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Staff must have the ability to handle the situation in every condition along with diplomatic Abilities, the flexibility of attitude, great communication, and organizing skills which are the most essential qualities needed for Airport Ground Staff as they spend much of their time in interacting with air passengers.
+Knowledge of more than one domestic and foreign languages can prove an added asset for an Airport Ground Staff as he has to meet people from different regions knowing different Languages.
+Airport Ground Staff must possess a calm and friendly personality, ability to handle people and their belonging to pressure conditions.
+Above all Airport Ground Staff must possess good health, energy, and stamina for working long and irregular hours as they are responsible for every little work of the passenger once they are landed."
+          android:textColor="@color/black" />
+
+      <TextView
+          android:id="@+id/textView59"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingTop="10dp"
+          android:text="Job Qualifications"
+          android:textStyle="bold"
+          android:textColor="@color/black"
+          android:textSize="20dp" />
+
+      <TextView
+          android:id="@+id/textView60"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="A high school diploma is necessary to get a job as a ticket agent, though a two year college degree is generally preferred. Basic computer skills and experience in customer service are usually necessary and some airlines may require experience with a foreign language"
+          android:textColor="@color/black" />
+
+      <TextView
+          android:id="@+id/textView61"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Industry"
+          android:textStyle="bold"
+          android:paddingTop="10dp"
+          android:textColor="@color/black"
+          android:textSize="20dp" />
+
+      <TextView
+          android:id="@+id/textView62"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="KPO/Research/Analytics , Pharmaceutical , Power/Energy , Agriculture/Dairy/Forestry/Fishing , Airlines/Aviation/Aerospace , Courier/Freight/Transportation , Food  Packaged Food , Textiles/Yarn/Fabrics/Garments , Hotels/Hospitality/Restaurant , General Trading/Import/Export , Travel/Tourism , Other"
+          android:textColor="@color/black" />
+
+      <TextView
+          android:id="@+id/textView63"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingTop="10dp"
+          android:text="Function Of Job"
+          android:textStyle="bold"
+          android:textColor="@color/black"
+          android:textSize="20dp" />
+
+      <TextView
+          android:id="@+id/textView64"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Admin/IT Service/Medical Treatment/Accounting"
+          android:textColor="@color/black" />
+
+      <TextView
+          android:id="@+id/textView65"
+          android:layout_width="match_parent"
+          android:textColor="@color/black"
+          android:layout_height="wrap_content"
+          android:paddingTop="10dp"
+          android:textSize="20dp"
+          android:textStyle="bold"
+          android:text="Role" />
+
+      <TextView
+          android:id="@+id/textView67"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textColor="@color/black"
+          android:text="Admin/Medical/Finance Accounting,Travel/IT Service" />
+
+      <Button
+          android:id="@+id/button11"
+          android:layout_width="150dp"
+          android:drawableLeft="@drawable/share"
+          android:layout_height="45dp"
+          android:backgroundTint="@color/purple_700"
+          android:layout_marginLeft="240dp"
+          android:text="Apply" />
+    </LinearLayout>
+  </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
